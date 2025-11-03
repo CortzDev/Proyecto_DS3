@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/App/AppContext.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Blockchain/Block.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Blockchain/BlockChain.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Blockchain/BlockChainStore.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Crypto/AsymCryptoUtil.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Crypto/EncriptacionUtil.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Crypto/Cifrado.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Crypto/SHA256.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/DAO/BlockPostgresDAO.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/DAO/CategoriaPostgresDAO.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/DAO/ProductoPostgresDAO.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/DAO/TransaccionPostgresDAO.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Invoice/Factura.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Invoice/FacturaItem.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Invoice/LedgerBridge.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Invoice/LineaVenta.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Model/Categoria.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Model/ProductoComplejo.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Model/Tienda.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Model/TipoTx.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Model/TransaccionCompleja.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Model/Transaction.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Postgres/DbPostgres.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/UI/BlockchainPanel.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/UI/CategoriasPanel.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/UI/MainFrame.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/UI/ProductosPanel.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/UI/RefreshableView.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/UI/ReportesPanel.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/UI/TransaccionesPanel.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/UI/VentasFacturaPanel.java</file>
+            <file>file:/C:/Users/cotuz/OneDrive/Documents/NetBeansProjects/Proyecto_DSIII/src/Util/JsonUtil.java</file>
+        </group>
+    </open-files>
+</project-private>
