@@ -1,0 +1,806 @@
+{
+  "chainLength": 36,
+  "difficulty": 4,
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-10-19T03:47:10.665Z",
+      "previousHash": "0",
+      "hash": "41c84b271aba70a1038b289f96d28f4551fdafcedaf4a05b90fa54ba62e671c7",
+      "nonce": 0,
+      "factura": {}
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-10-19T03:47:31.079Z",
+      "previousHash": "41c84b271aba70a1038b289f96d28f4551fdafcedaf4a05b90fa54ba62e671c7",
+      "hash": "0000ba1b0923e7a9ae78ffff4ea6a74d42e6a426edb771f343423b317f20269d",
+      "nonce": 9704,
+      "factura": {
+        "numero": "F-20251018-214710-009",
+        "fecha": "2025-10-19T03:47:31.073460200Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "PROD001", "descripcion": "PROD001", "cantidad": 1, "precioUnitario": 1200},
+          {"productoId": "PROD001", "descripcion": "PROD001", "cantidad": 1, "precioUnitario": 1200},
+          {"productoId": "PROD001", "descripcion": "PROD001", "cantidad": 1, "precioUnitario": 1200},
+          {"productoId": "PROD001", "descripcion": "PROD001", "cantidad": 1, "precioUnitario": 1200},
+          {"productoId": "PROD001", "descripcion": "PROD001", "cantidad": 1, "precioUnitario": 1200},
+          {"productoId": "PROD001", "descripcion": "PROD001", "cantidad": 1, "precioUnitario": 1200}
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "timestamp": "2025-10-19T04:30:43.405Z",
+      "previousHash": "0000ba1b0923e7a9ae78ffff4ea6a74d42e6a426edb771f343423b317f20269d",
+      "hash": "0000f5184c0db147cb48ef2d77afca482b8030a63972acfa460f190ac126af35",
+      "nonce": 7906,
+      "factura": {
+        "numero": "F-20251018-223031-471",
+        "fecha": "2025-10-19T04:30:43.405669100Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "PROD001", "descripcion": "PROD001", "cantidad": 1, "precioUnitario": 1200}
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "timestamp": "2025-10-19T04:31:40.526Z",
+      "previousHash": "0000f5184c0db147cb48ef2d77afca482b8030a63972acfa460f190ac126af35",
+      "hash": "0000b0294d695890d41e5e371a7b471847523fa234984ed1eb59c0a15b635992",
+      "nonce": 125352,
+      "factura": {
+        "numero": "F-20251018-223116-188",
+        "fecha": "2025-10-19T04:31:40.525640300Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "PROD004", "descripcion": "PROD004", "cantidad": 1, "precioUnitario": 1200},
+          {"productoId": "PROD004", "descripcion": "PROD004", "cantidad": 1, "precioUnitario": 150}
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "timestamp": "2025-10-19T05:18:42.505Z",
+      "previousHash": "0000b0294d695890d41e5e371a7b471847523fa234984ed1eb59c0a15b635992",
+      "hash": "000017b8e8178d3dbe8de8a67b69de6f2d9fddf567b841d85afc40edad56409b",
+      "nonce": 5497,
+      "factura": {
+        "numero": "F-20251018-231705-184",
+        "fecha": "2025-10-19T05:18:42.503627Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "PROD001", "descripcion": "PROD001", "cantidad": 1, "precioUnitario": 1200}
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "timestamp": "2025-10-19T05:19:45.273Z",
+      "previousHash": "000017b8e8178d3dbe8de8a67b69de6f2d9fddf567b841d85afc40edad56409b",
+      "hash": "000019ae1e713d1bc58826213fbfdbbf54cf6d6971e7fdaf01475d997ae99ec6",
+      "nonce": 93489,
+      "factura": {
+        "numero": "F-20251018-231845-576",
+        "fecha": "2025-10-19T05:19:45.273544200Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "PROD002", "descripcion": "PROD002", "cantidad": 1, "precioUnitario": 1200}
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "timestamp": "2025-10-19T20:54:12.024Z",
+      "previousHash": "000019ae1e713d1bc58826213fbfdbbf54cf6d6971e7fdaf01475d997ae99ec6",
+      "hash": "0000aff750a906341b053a76b4709ef7915784de69445168d075008a08a0e990",
+      "nonce": 10312,
+      "factura": {
+        "numero": "F-20251019-141201-547",
+        "fecha": "2025-10-19T20:54:12.023576300Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "PROD001", "descripcion": "PROD001", "cantidad": 6, "precioUnitario": 1200}
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "timestamp": "2025-10-19T22:10:52.711Z",
+      "previousHash": "0000aff750a906341b053a76b4709ef7915784de69445168d075008a08a0e990",
+      "hash": "0000ad869e2ccc90bc69c8dc96a382d8663b0281d0d67c2161df90587b350fc5",
+      "nonce": 405235,
+      "factura": {
+        "numero": "F-20251019-160912-918",
+        "fecha": "2025-10-19T22:10:52.031787500Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "1", "descripcion": "1", "cantidad": 1, "precioUnitario": 1}
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "timestamp": "2025-10-19T22:46:35.532Z",
+      "previousHash": "0000ad869e2ccc90bc69c8dc96a382d8663b0281d0d67c2161df90587b350fc5",
+      "hash": "0000d33e1e18f10a6fbff52ff7f7def9e8e7badcdfb14b149403e8dce32b0a7a",
+      "nonce": 121701,
+      "factura": {
+        "numero": "F-20251019-164540-978",
+        "fecha": "2025-10-19T22:46:34.266676Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "TECL01", "descripcion": "Teclado Mecánico TKL", "cantidad": 1, "precioUnitario": 45}
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "timestamp": "2025-10-19T22:46:53.424Z",
+      "previousHash": "0000d33e1e18f10a6fbff52ff7f7def9e8e7badcdfb14b149403e8dce32b0a7a",
+      "hash": "0000ae1de75c4ea0b7068d37ef244e8941b4fec8bc6b85e1d8c6a01205a567f9",
+      "nonce": 19081,
+      "factura": {
+        "numero": "F-20251019-164639-164",
+        "fecha": "2025-10-19T22:46:52.163161200Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "TECL01", "descripcion": "Teclado Mecánico TKL", "cantidad": 1, "precioUnitario": 45}
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "timestamp": "2025-10-19T22:47:04.297Z",
+      "previousHash": "0000ae1de75c4ea0b7068d37ef244e8941b4fec8bc6b85e1d8c6a01205a567f9",
+      "hash": "000022df248e75fcfc6a1c0909a9c7168dddd8bd2e333bb2ca4edb8889d5a4a5",
+      "nonce": 307276,
+      "factura": {
+        "numero": "F-20251019-164656-362",
+        "fecha": "2025-10-19T22:47:03.675374600Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "timestamp": "2025-10-19T22:47:14.621Z",
+      "previousHash": "000022df248e75fcfc6a1c0909a9c7168dddd8bd2e333bb2ca4edb8889d5a4a5",
+      "hash": "00007b5ef4fb7e4a05c28a0d1b6e232dd103bdbe513fcdf6cb10473d7a28c0af",
+      "nonce": 165202,
+      "factura": {
+        "numero": "F-20251019-164708-137",
+        "fecha": "2025-10-19T22:47:14.022824100Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "timestamp": "2025-10-19T22:47:43.199Z",
+      "previousHash": "00007b5ef4fb7e4a05c28a0d1b6e232dd103bdbe513fcdf6cb10473d7a28c0af",
+      "hash": "0000ddb6a7447058d0e630b582d65f4de8a8a09a9ccd432061cd68fc9392ef9a",
+      "nonce": 58944,
+      "factura": {
+        "numero": "F-20251019-164717-825",
+        "fecha": "2025-10-19T22:47:37.043004200Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "timestamp": "2025-10-19T22:48:00.479Z",
+      "previousHash": "0000ddb6a7447058d0e630b582d65f4de8a8a09a9ccd432061cd68fc9392ef9a",
+      "hash": "0000253cd7769a805e79d6fb79e6c2554e2fbe22d89dadfdba3e75aba4fa66b1",
+      "nonce": 13017,
+      "factura": {
+        "numero": "F-20251019-164747-706",
+        "fecha": "2025-10-19T22:47:59.842226700Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "MOU001", "descripcion": "Mouse Inalámbrico 2.4G", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "timestamp": "2025-10-19T22:48:10.614Z",
+      "previousHash": "0000253cd7769a805e79d6fb79e6c2554e2fbe22d89dadfdba3e75aba4fa66b1",
+      "hash": "0000e05473e689cf9c3e5adbf7aa572a72cf686987b4c0b63089096ad38e4719",
+      "nonce": 77088,
+      "factura": {
+        "numero": "F-20251019-164803-353",
+        "fecha": "2025-10-19T22:48:10.009983800Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "MOU001", "descripcion": "Mouse Inalámbrico 2.4G", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "timestamp": "2025-10-19T22:50:05.409Z",
+      "previousHash": "0000e05473e689cf9c3e5adbf7aa572a72cf686987b4c0b63089096ad38e4719",
+      "hash": "00004f92c03958a8a406cdfe4b7624b40e393a466820bba9a27727b99ec0f552",
+      "nonce": 72837,
+      "factura": {
+        "numero": "F-20251019-164818-289",
+        "fecha": "2025-10-19T22:50:04.807665400Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 2, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "timestamp": "2025-10-19T23:09:31.700Z",
+      "previousHash": "00004f92c03958a8a406cdfe4b7624b40e393a466820bba9a27727b99ec0f552",
+      "hash": "0000490d3de885364aee48ca51f675b85b085f5ef788427cbf20f767572d7205",
+      "nonce": 192431,
+      "factura": {
+        "numero": "F-20251019-170921-559",
+        "fecha": "2025-10-19T23:09:31.085568200Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 17,
+      "timestamp": "2025-10-19T23:09:44.724Z",
+      "previousHash": "0000490d3de885364aee48ca51f675b85b085f5ef788427cbf20f767572d7205",
+      "hash": "0000bf8021c723f6231172015444467598c42eb0bdd4067647cf6391a92f7d07",
+      "nonce": 7488,
+      "factura": {
+        "numero": "F-20251019-170936-450",
+        "fecha": "2025-10-19T23:09:42.867448700Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 18,
+      "timestamp": "2025-10-19T23:59:12.286Z",
+      "previousHash": "0000bf8021c723f6231172015444467598c42eb0bdd4067647cf6391a92f7d07",
+      "hash": "0000014faf379dde1ae9b5434493a9349a20803b260ad5549e47f1f7fdd0ae61",
+      "nonce": 51082,
+      "factura": {
+        "numero": "F-20251019-175852-338",
+        "fecha": "2025-10-19T23:59:11.667418900Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 19,
+      "timestamp": "2025-10-19T23:59:38.782Z",
+      "previousHash": "0000014faf379dde1ae9b5434493a9349a20803b260ad5549e47f1f7fdd0ae61",
+      "hash": "000088b4e283a2b96c4f64cd5f5e6495f3a600efab9b1fc75831f94453991fe5",
+      "nonce": 50307,
+      "factura": {
+        "numero": "F-20251019-175916-022",
+        "fecha": "2025-10-19T23:59:38.112688700Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 20,
+      "timestamp": "2025-10-19T23:59:54.564Z",
+      "previousHash": "000088b4e283a2b96c4f64cd5f5e6495f3a600efab9b1fc75831f94453991fe5",
+      "hash": "000092ed6a2d1ba0d5be2b5dba6b5bcb3cebb4f602ce91612dd0596e079fbc7a",
+      "nonce": 37990,
+      "factura": {
+        "numero": "F-20251019-175942-439",
+        "fecha": "2025-10-19T23:59:53.954835700Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 21,
+      "timestamp": "2025-10-20T00:00:17.052Z",
+      "previousHash": "000092ed6a2d1ba0d5be2b5dba6b5bcb3cebb4f602ce91612dd0596e079fbc7a",
+      "hash": "0000a125ad88c0d900edef7f544c3341ba7e9f41a414661d1216995bb27d00ac",
+      "nonce": 12515,
+      "factura": {
+        "numero": "F-20251019-175958-132",
+        "fecha": "2025-10-20T00:00:16.393100700Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 22,
+      "timestamp": "2025-10-20T00:00:41.721Z",
+      "previousHash": "0000a125ad88c0d900edef7f544c3341ba7e9f41a414661d1216995bb27d00ac",
+      "hash": "000032851599d6d712193b8ec9797efbb8d5b96e37b34fc08a897b413aac594f",
+      "nonce": 79095,
+      "factura": {
+        "numero": "F-20251019-180022-920",
+        "fecha": "2025-10-20T00:00:41.101527900Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "RES001", "descripcion": "Resaltadores Fluorescentes (pack x6)", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 23,
+      "timestamp": "2025-10-20T01:00:27.805Z",
+      "previousHash": "000032851599d6d712193b8ec9797efbb8d5b96e37b34fc08a897b413aac594f",
+      "hash": "0000efdfe2796f91c5642dc7c384bed17ad321d0c1aff14e72daf7afb3c9c023",
+      "nonce": 37537,
+      "factura": {
+        "numero": "F-20251019-190016-793",
+        "fecha": "2025-10-20T01:00:26.440281200Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 24,
+      "timestamp": "2025-10-20T01:00:47.195Z",
+      "previousHash": "0000efdfe2796f91c5642dc7c384bed17ad321d0c1aff14e72daf7afb3c9c023",
+      "hash": "0000c1298879d3ebddc03c26cb9d37587d3e8060a26d68ff9acacd0b9b029f95",
+      "nonce": 18518,
+      "factura": {
+        "numero": "F-20251019-190032-124",
+        "fecha": "2025-10-20T01:00:44.123496300Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 25,
+      "timestamp": "2025-10-20T01:09:30.708Z",
+      "previousHash": "0000c1298879d3ebddc03c26cb9d37587d3e8060a26d68ff9acacd0b9b029f95",
+      "hash": "00005c85b758766f8f7bd2cb5d7bb217d1a686de2a565b6ce86e2e5717c433ef",
+      "nonce": 126742,
+      "factura": {
+        "numero": "F-20251019-190921-400",
+        "fecha": "2025-10-20T01:09:30.096718400Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 26,
+      "timestamp": "2025-10-20T01:09:53.809Z",
+      "previousHash": "00005c85b758766f8f7bd2cb5d7bb217d1a686de2a565b6ce86e2e5717c433ef",
+      "hash": "000085f6ba67b28814c10a30668b6f1017a1abad4eec641d524e243eea7ae6a7",
+      "nonce": 7791,
+      "factura": {
+        "numero": "F-20251019-190935-681",
+        "fecha": "2025-10-20T01:09:46.528781100Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 27,
+      "timestamp": "2025-10-20T01:36:52.392Z",
+      "previousHash": "000085f6ba67b28814c10a30668b6f1017a1abad4eec641d524e243eea7ae6a7",
+      "hash": "0000dfd7f2449c5eeaf4ac73cd2f731f6da75a75f0f3bba917a52e9c1cc3524e",
+      "nonce": 108286,
+      "factura": {
+        "numero": "F-20251019-193641-026",
+        "fecha": "2025-10-20T01:36:51.299165400Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 28,
+      "timestamp": "2025-10-20T01:51:00.369Z",
+      "previousHash": "0000dfd7f2449c5eeaf4ac73cd2f731f6da75a75f0f3bba917a52e9c1cc3524e",
+      "hash": "0000b9cfa572a1b02cd8cc7ead7e632732b72e3fa057cb91a86ddc42c83a6cca",
+      "nonce": 96870,
+      "factura": {
+        "numero": "F-20251019-193658-562",
+        "fecha": "2025-10-20T01:50:59.197818800Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "MOU001", "descripcion": "Mouse Inalámbrico 2.4G", "cantidad": 1, "precioUnitario": 12.5}
+        ]
+      }
+    },
+    {
+      "index": 29,
+      "timestamp": "2025-10-20T02:02:53.247Z",
+      "previousHash": "0000b9cfa572a1b02cd8cc7ead7e632732b72e3fa057cb91a86ddc42c83a6cca",
+      "hash": "00008f9e2482d70927a886b7fac3fd4c0419805ac204b3a8a0aa7cc48ea6586b",
+      "nonce": 32566,
+      "factura": {
+        "numero": "F-20251019-200148-723",
+        "fecha": "2025-10-20T02:02:52.115848Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 30,
+      "timestamp": "2025-10-20T02:16:47.439Z",
+      "previousHash": "00008f9e2482d70927a886b7fac3fd4c0419805ac204b3a8a0aa7cc48ea6586b",
+      "hash": "0000c2d5a7ba89320287a45cba49ffb6390534bfbfd8285454e7c309d37de7f8",
+      "nonce": 161814,
+      "factura": {
+        "numero": "F-20251019-201622-286",
+        "fecha": "2025-10-20T02:16:46.023092600Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 31,
+      "timestamp": "2025-10-20T03:26:10.858Z",
+      "previousHash": "0000c2d5a7ba89320287a45cba49ffb6390534bfbfd8285454e7c309d37de7f8",
+      "hash": "0000fe11e76fb157fc2e923a48c7eb88c8afffea138f6f725b2e8b9b0d8ee363",
+      "nonce": 13064,
+      "factura": {
+        "numero": "F-20251019-210148-363",
+        "fecha": "2025-10-20T03:26:09.583484600Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "TECL01", "descripcion": "Teclado Mecánico TKL", "cantidad": 1, "precioUnitario": 45},
+          {"productoId": "TECL01", "descripcion": "Teclado Mecánico TKL", "cantidad": 1, "precioUnitario": 45},
+          {"productoId": "TECL01", "descripcion": "Teclado Mecánico TKL", "cantidad": 1, "precioUnitario": 45},
+          {"productoId": "TECL01", "descripcion": "Teclado Mecánico TKL", "cantidad": 1, "precioUnitario": 45}
+        ]
+      }
+    },
+    {
+      "index": 32,
+      "timestamp": "2025-10-21T13:36:12.389Z",
+      "previousHash": "0000fe11e76fb157fc2e923a48c7eb88c8afffea138f6f725b2e8b9b0d8ee363",
+      "hash": "00004f2dfcd81a03b3a5b040c2c34aabb0b8455f147e709f42fe9c49d4bce97b",
+      "nonce": 12763,
+      "factura": {
+        "numero": "F-20251021-073510-201",
+        "fecha": "2025-10-21T13:36:11.194457700Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9},
+          {"productoId": "CAB001", "descripcion": "Cable HDMI 2.0 1.8m", "cantidad": 1, "precioUnitario": 6.9}
+        ]
+      }
+    },
+    {
+      "index": 33,
+      "timestamp": "2025-10-21T13:52:28.024Z",
+      "previousHash": "00004f2dfcd81a03b3a5b040c2c34aabb0b8455f147e709f42fe9c49d4bce97b",
+      "hash": "000039a9be64e67a02c782a6c806e73ee2ca1c76e4e32e7359bd7202621d5261",
+      "nonce": 85620,
+      "factura": {
+        "numero": "F-20251021-075135-970",
+        "fecha": "2025-10-21T13:52:26.782975Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "TECL01", "descripcion": "Teclado Mecánico TKL", "cantidad": 1, "precioUnitario": 45},
+          {"productoId": "SMA001", "descripcion": "Smartphone 128GB, 6GB RAM", "cantidad": 1, "precioUnitario": 229}
+        ]
+      }
+    },
+    {
+      "index": 34,
+      "timestamp": "2025-10-22T00:38:00.719Z",
+      "previousHash": "000039a9be64e67a02c782a6c806e73ee2ca1c76e4e32e7359bd7202621d5261",
+      "hash": "0000778a1bfd438d92d88e20b527894b6583f0a69d97c84d0e757b788f6ef8a4",
+      "nonce": 15125,
+      "factura": {
+        "numero": "F-20251021-183647-023",
+        "fecha": "2025-10-22T00:37:59.026459100Z",
+        "clienteNombre": "",
+        "clienteId": "",
+        "direccion": "",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "TECL01", "descripcion": "Teclado Mecánico TKL", "cantidad": 1, "precioUnitario": 45},
+          {"productoId": "TECL01", "descripcion": "Teclado Mecánico TKL", "cantidad": 1, "precioUnitario": 45}
+        ]
+      }
+    },
+    {
+      "index": 35,
+      "timestamp": "2025-10-22T00:43:19.500Z",
+      "previousHash": "0000778a1bfd438d92d88e20b527894b6583f0a69d97c84d0e757b788f6ef8a4",
+      "hash": "00005e31b9b6d3aac61316ae71d3d6976b5046f8c923541f9a783324e4689e25",
+      "nonce": 1040,
+      "factura": {
+        "numero": "F-20251021-183809-351",
+        "fecha": "2025-10-22T00:43:17.108390400Z",
+        "clienteNombre": "Javier",
+        "clienteId": "04400752",
+        "direccion": "Cara sucia",
+        "formaPago": "EFECTIVO",
+        "vendedor": "cotuz",
+        "tienda": "SuperTech Store",
+        "tasaImpuesto": 0.13,
+        "items": [
+          {"productoId": "MOU001", "descripcion": "Mouse Inalámbrico 2.4G", "cantidad": 1, "precioUnitario": 12.5},
+          {"productoId": "MOU001", "descripcion": "Mouse Inalámbrico 2.4G", "cantidad": 1, "precioUnitario": 12.5},
+          {"productoId": "MOU001", "descripcion": "Mouse Inalámbrico 2.4G", "cantidad": 1, "precioUnitario": 12.5},
+          {"productoId": "MOU001", "descripcion": "Mouse Inalámbrico 2.4G", "cantidad": 1, "precioUnitario": 12.5}
+        ]
+      }
+    }
+  ]
+}

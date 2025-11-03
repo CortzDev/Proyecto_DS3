@@ -1,0 +1,60 @@
+Arreglar la validaciones 
+
+Sugerencia: si quieres “simular minería”, 
+podrías agregar un nonce y un bucle hasta 
+encontrar un hash que empiece con "0000" 
+(prueba de trabajo).
+
+Sugerencia: podrías generar las llaves .pem 
+directamente desde tu app con KeyPairGenerator, 
+para tener todo integrado desde el GUI (opcional).
+
+Sugerencia: podrías mostrar en consola el contenido original 
+(descifrado) para demostrarlo en la exposición.
+
+Creas bloques nuevos cada vez que emites una factura (emitirFacturaYEncadenar()), 
+pero no incluyes una función explícita de “minado” con dificultad.
+
+No generas ni guardas el nonce.
+
+Ya implementas BlockChain.isValid() para verificar la integridad de hashes,
+pero aún no registras ni verificas un campo nonce.
+
+No estás guardando el nonce en BD (ni usas PostgreSQL).
+
+
+
+
+ORDENARLO
+
+proyecto_dsiii/
+├─ ui/                         # Todo lo visual (Swing)
+│  └─ InventarioCompletoGUI.java
+│
+├─ model/                      # Modelo de dominio (inventario)
+│  ├─ Tienda.java
+│  ├─ Categoria.java
+│  ├─ ProductoComplejo.java
+│  ├─ TransaccionCompleja.java
+│  ├─ TipoTx.java
+│  └─ Transaction.java         # (si es duplicado de TransaccionCompleja, elimina o fusiona)
+│
+├─ invoice/                    # Facturación (datos de factura)
+│  ├─ Factura.java
+│  ├─ FacturaItem.java
+│  ├─ LineaVenta.java
+│  └─ LedgerBridge.java        # “puente” para crear Factura desde carrito
+│
+├─ blockchain/                 # Cadena de bloques
+│  ├─ Block.java
+│  ├─ BlockChain.java
+│  └─ BlockChainStore.java
+│
+├─ crypto/                     # Cifrado simétrico/asimétrico y hashes
+│  ├─ Cifrado.java
+│  ├─ EncriptacionUtil.java
+│  ├─ AsymCryptoUtil.java
+│  └─ SHA256.java
+│
+└─ util/                       # Utilidades transversales
+   └─ JsonUtil.java

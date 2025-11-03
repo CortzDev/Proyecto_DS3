@@ -1,0 +1,29 @@
+# 🧠 Proyecto Blockchain – SuperTech Store  
+📅 **Fecha:** 20/10/2025  
+
+---
+
+## ✅ Completado
+
+- ⚙️ Implementación del **Blockchain con minería PoW** (`difficulty=4`).
+- 🔍 Validación completa de la cadena (**hash** y **nonce**).
+- 💾 Guardado y carga desde archivo **JSON**.
+- 🔐 Exportación y carga **cifrada con llaves PEM** (`.json.enc` global).
+- 🗄️ Integración con **PostgreSQL** (bloques y nonces guardados correctamente).
+- 🧭 Interfaz funcional con pestaña **Blockchain** (Validar, Exportar, etc.).
+
+---
+
+
+---
+
+## 🟢 Conclusión
+
+Con estas mejoras, el proyecto **cumplirá al 100 %** los requisitos del módulo de **Cifrado y Blockchain**, incluyendo:
+- Cifrado asimétrico RSA (PEM/PUB)
+- Minería PoW y validación real
+- Persistencia completa en PostgreSQL
+- Exportación y respaldo seguro por bloque
+
+---
+
